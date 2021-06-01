@@ -1,0 +1,176 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+footer h2 {
+    margin-bottom: 1rem;
+}
+
+footer span {
+    margin-bottom: 2rem;
+}
+
+footer .create-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 19rem;
+    height: 4.25rem;
+    background-color: #5E20A4;
+    border-radius: .25rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.calendar {
+    margin-right: 1.3125rem;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+footer span.medium {
+    margin: 0;
+    font-weight: 400;
+}
+
+.x-small {
+    font-weight: 400;
+    margin: 0;
+    font-size: .75rem;
+}
+
+footer a {
+    margin-top: 1.5rem;
+    margin-bottom: 5.125rem;
+    color: #5E20A4;
+}
+
+footer .nav-footer {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+footer .nav-footer ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-left: 1.875rem;
+    font-size: .875rem;
+  }
+
+  footer .nav-footer ul li {
+      margin-right: .625rem;
+  }
+
+  footer .nav-footer ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: .875rem;
+    color: #3D3D3D;
+    margin: 0;
+}
+
+  .social-media li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 2.8125rem;
+      height: 2.8125rem;
+      border: 1px solid #DFDFDF;
+      border-radius: 100%;
+  }
+
+  .social-media li + li {
+      margin-left: 1rem;
+  }
+
+  .x-small-2 {
+      margin: 0 auto;
+      text-align: center;
+      display: block;
+      font-size: .75rem;
+      color: #3D3D3D;
+  }
+
+  .mobile-hr {
+      display: none;
+  }
+
+  @media screen and (max-width: 414px) {
+    footer {
+        padding-top: 2.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    footer h2 {
+        margin-bottom: .5rem;
+    }
+
+    footer span {
+        margin-bottom: 1.5rem;
+    }
+
+    footer a {
+        display: block;
+        margin-top: 1.5rem;
+        margin-bottom: 3rem;
+    }
+
+    footer .nav-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    footer .nav-footer img{
+        margin-bottom: 2.5rem;
+    }
+
+    footer .nav-footer ul {
+        margin: 0 3.125rem;
+        font-size: .875rem;
+        flex-wrap: wrap;
+        margin-bottom: 1.5rem;
+      }
+
+      footer .nav-footer ul li {
+        margin-bottom: 1.0625rem;
+    }
+
+    .social-media li {
+        width: 2.8125rem;
+        height: 2.8125rem;
+        border: 1px solid #DFDFDF;
+        border-radius: 100%;    }
+  
+    footer .nav-footer .social-media img {
+        margin: 0;
+    }
+  
+    .x-small-2 {
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+        size: .75rem;
+        color: #3D3D3D;
+    }
+
+    .mobile-hr {
+        display: initial;
+    }
+  
+  }

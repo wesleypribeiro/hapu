@@ -1,0 +1,25 @@
+.fifth-block {
+  max-width: 70vw;
+  margin: 6rem auto;
+  margin-bottom: 7.5rem;
+  text-align: center;
+}
+
+.fifth-block h2 {
+  margin: 2.5rem 0;
+}
+
+.fifth-block span {
+  line-height: 1.75rem;
+}
+
+@media screen and (max-width: 414px) {
+  .fifth-block {
+    max-width: initial;
+    margin: 4rem 1rem;
+  }
+
+  .fifth-block h2 {
+    margin-top: 1rem;
+  }
+}

@@ -1,0 +1,231 @@
+main {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.part-1 {
+  height: 80vh;
+  background: url("../../assets/Image-1.png"),
+    linear-gradient(0, #c86dd7, #7e49c3, #5912ac);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main header {
+  padding-top: 1.75rem;
+  padding-left: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+}
+
+.badge {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 0.8125rem;
+  position: absolute;
+  top: 0px;
+  width: 3rem;
+  height: 4rem;
+  background-color: #00c88c;
+  border-radius: 0 0 2rem 2rem;
+}
+
+nav {
+  margin-left: 2.5rem;
+}
+
+main ul {
+  display: flex;
+  list-style: none;
+}
+
+#signIn {
+  padding-right: 2rem;
+}
+
+#signIn button {
+  color: white;
+  width: 14.625rem;
+  height: 2.75rem;
+  background-color: #00a870;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  margin-right: 1.4375rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: .875rem;
+}
+
+#signIn a {
+  color: white;
+  text-decoration: none;
+}
+
+main ul li {
+  margin-left: 2rem;
+}
+
+main div.content {
+  display: flex;
+  margin-top: 10.625rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left {
+  width: 50%;
+}
+
+.left h1 {
+  margin-bottom: 1.5rem;
+}
+
+.play {
+  display: flex;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+
+.play a {
+  margin-left: 1rem;
+  font-size: 1rem;
+  color: white;
+}
+
+.content .information {
+  display: flex;
+  flex-direction: column;
+}
+
+.part-2 {
+  height: 7rem;
+  border: 1px solid #dfdfdf;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+}
+
+.part-2 a {
+  margin-left: 2rem;
+  color: #5e20a4;
+}
+
+@media screen and (max-width: 414px) {
+  main {
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .part-1 {
+    height: 70vh;
+    background: url("../../assets/Image.png"),
+      linear-gradient(0, #c86dd7, #7e49c3, #5912ac);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  main header {
+    padding-top: 1rem;
+    padding-left: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+  }
+
+  header {
+    color: blue;
+  }
+
+  #signIn button {
+    color: white;
+    width: 14.625rem;
+    height: 2.75rem;
+    background-color: #00a870;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    margin-top: 0;
+    margin-left: 5rem;
+  }
+
+  nav {
+    display: none;
+  }
+
+  a {
+    display: none;
+  }
+
+  .right {
+    display: none;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+    line-height: 2rem;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  main article.content {
+    display: flex;
+    margin-top: 5.75rem;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .content .information {
+    display: block;
+    margin: 0 1rem;
+    text-align: center;
+    line-height: 1.75rem;
+  }
+
+  .play {
+    display: flex;
+    margin-top: 2.5rem;
+  }
+
+  .play a{
+    display: block;
+    margin: 0;
+  }
+
+  .play a + a {
+    margin-left: 1rem;
+  }
+
+  .part-2 {
+    height: 13.5rem;
+    border: 1px solid #dfdfdf;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    text-align: center;
+    padding: 0 2.3125rem;
+    font-size: .875rem;
+  }
+
+  .part-2 a {
+    margin-top: 1rem;
+    margin-bottom: .75rem;
+    display: block;
+    font-size: 1rem;
+  }
+}

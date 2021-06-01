@@ -1,0 +1,56 @@
+.third-block {
+  display: flex;
+  margin: 6rem 14.25rem;
+  max-width: 70vw;
+}
+
+.third-block h2 {
+  margin-bottom: 2.5rem;
+}
+
+.third-block .left {
+  margin-right: 2.75rem;
+}
+
+.third-block span {
+  line-height: 1.75rem;
+}
+
+.third-block a {
+  display: block;
+  color: #5e20a4;
+  font-weight: 500;
+  margin-top: 2.5rem;
+}
+
+@media screen and (max-width: 414px) {
+  .third-block {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem auto;
+    justify-content: center;
+    align-items: center;
+    max-width: inherit;
+    text-align: center;
+  }
+
+  .third-block .left {
+    margin: 0;
+  }
+
+  .third-block .left img {
+    height: 14.375rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .third-block .right {
+    margin: 0 1rem;
+    display: block;
+  }
+
+  .third-block h2 {
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    width: 14.125rem;
+  }
+}

@@ -1,0 +1,47 @@
+.fourth-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 6rem auto;
+  text-align: center;
+  max-width: 70vw;
+}
+
+.fourth-block h2 {
+  margin-bottom: 2.5rem;
+}
+
+.fourth-block span {
+  line-height: 1.75rem;
+}
+
+.fourth-block a {
+  display: block;
+  color: #5e20a4;
+  font-weight: 500;
+  margin-top: 2.5rem;
+}
+
+.fourth-block img {
+    margin-top: 4rem;
+}
+
+@media screen and (max-width: 414px) {
+  .fourth-block {
+    margin: 4rem 1rem;
+    max-width: initial;
+  }
+  
+  .fourth-block h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .fourth-block a {
+    font-weight: 500;
+    margin-top: 1.5rem;
+  }
+  
+  .fourth-block img {
+      display: none;
+  }
+}
